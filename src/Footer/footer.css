@@ -1,0 +1,20 @@
+.footer{
+    background-color: rgba(3, 37, 65) ;
+    width: 102.4%;
+    
+margin-left: -30px;
+margin-top: 45%;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.col-md-3{
+    width: 20% !important;
+}
+.col-md-3 img{
+    width: 100% !important;
+}

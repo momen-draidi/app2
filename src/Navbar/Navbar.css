@@ -1,0 +1,41 @@
+.navbar{
+    background-color: rgba(3, 37, 65);
+   margin-top: -.1%;
+
+}
+
+.img{
+    width: 20%;
+    margin-right: 30px;
+
+    
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* remove the gap so it doesn't close */
+}
+.nav-link{
+    font-family: initial;
+    margin-right: 90% !important;
+}
+
+@media (max-width:500px) {
+    .img{
+        width: 35% !important;
+    }
+
+}
+@media (max-width:800px) {
+    .img{
+        width: 25% !important;
+    }
+
+}
+
+
+@media (max-width:1000px) {
+    .img{
+        width: 20% !important;
+    }
+
+}

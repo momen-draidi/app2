@@ -1,0 +1,44 @@
+.col-md-6{
+    width: 40% !important;
+    
+}
+
+.h5-1{
+    margin-top: 10%;
+    margin-bottom: 10px;
+    margin-left: -170px;
+    color: white;
+}
+.p1{
+    color: white;
+    margin-left: -170px;
+}
+.details{
+  
+    height: 0vh;
+    margin-bottom: -5.3rem;
+
+  
+}
+.icon{
+    margin-top: -40px;
+    margin-left: -185px
+}
+
+.icons{
+    margin-left: 10px;
+    padding: 10px;
+    color: white;
+   font-size: 20px !important;
+    line-height: 4;
+    border-radius: 50%;
+    width: 200px;
+    background-color: rgba(31.5, 31.5, 94.5, 1)!important;
+    transition: 2s 2s width;
+}
+
+
+.icons :hover{
+    width: 30px;
+height: 30px;    
+}

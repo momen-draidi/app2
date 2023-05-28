@@ -1,0 +1,85 @@
+
+.img{
+    height: 60%;
+    
+    
+}
+.slid{
+ 
+    margin-top: 2%;
+    background-image:url(../../public/trending-bg-39afc2a5f77e31d469b25c187814c0a2efef225494c038098d62317d923f8415.svg) ;
+    background-position:120em;
+    background-size: cover;
+    margin-bottom: -4%;
+    
+}
+
+
+.mySwiper{
+    height: 60vh !important;
+}
+
+
+.btn1{
+    background-color: white;
+  
+    margin-left: 30%;
+    
+
+
+}
+.card{
+    height: 79% !important;
+    border-radius: 3%;
+    background-color: #032541;
+    
+}
+.card img{
+    height: 65% !important;
+}
+.card-body h6{
+   height: 45%;
+}
+
+
+
+
+.h1{
+    font-style: italic;
+    font-weight: 400 !important;
+    color: white !important;
+    
+}
+
+.nav{
+    background-color: white;
+width: 15% !important;
+
+border:2px solid black;
+border-bottom:2px solid black !important ;
+position: absolute;
+left: 15%;
+bottom: 87%;
+border-radius: 20px;
+color: black !important;
+
+text-align: center !important;
+
+
+}
+.nav-link{
+    border-radius: 30px !important;
+    width: 100%;
+    
+  
+
+}
+.nav-link.active{
+    background-color: #032541 !important;
+    color: white !important;
+    
+}
+
+
+
+

@@ -3,6 +3,8 @@ import axios from  'axios'
 import './Mpopular.css'
 import {useState,useEffect} from 'react'
 import {Link} from 'react-router-dom'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 
 
@@ -22,17 +24,20 @@ function MPopuolar() {
 
    useEffect(()=>{
     getMPopoular();
+    Aos.init();
    },[]) 
    
   return (
     <>
-    <div className="cont ">
+    <div className="cont "  data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="800" >
 
     <h1 className='ms-5 h1 mb-5'>Popular Movies</h1>
    
    
    <div className="d-flex container  ">
-      <div className="row"> 
+      <div className="row"  > 
             {MPopoular.map((popular)=>
       
       <div className="col-md-4 w-25 h-25">

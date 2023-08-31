@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import './../node_modules/react-scroll/package.json'
 import reportWebVitals from './reportWebVitals';
+import './../node_modules/aos/dist/aos.css'
+import './../node_modules/aos/dist/aos'
 import './../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import './../node_modules/bootstrap/dist/js/bootstrap.bundle.js'
 import './../node_modules/owl.carousel/dist/assets/owl.carousel.min.css'

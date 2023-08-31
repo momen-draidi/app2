@@ -6,7 +6,7 @@ function People() {
       
     let getPeople=async ()=>{
 
-        let {data}=await axios.get(`https://api.themoviedb.org/3/person/latest?api_key=55c86c2df6b0523ea399340a751adb35`)
+        let {data}=await axios.get(`https://api.themoviedb.org/3/trending/person/day?api_key=55c86c2df6b0523ea399340a751adb35`)
         
        setPeople(data.results);
     

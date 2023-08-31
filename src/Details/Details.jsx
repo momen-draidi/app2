@@ -29,7 +29,7 @@ getAllData();
   <div className="mt-5 d-flex details "  >
     <div className="col-md-6 h-100 w-50">
 
-  <img src={`https://image.tmdb.org/t/p/w500/${data.poster_path}`} class="card-img-top mt-2 w-50 " alt="img.........???"/>
+  <img src={`https://image.tmdb.org/t/p/w500/${data.poster_path}`} class="card-img-top mt-2 w-50 i" alt="img.........???"/>
     </div>
     <div className="col-md-6">
       <div className="h5-1 fs-2"> {data.title}<br/>
